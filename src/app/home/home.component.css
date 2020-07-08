@@ -1,0 +1,10 @@
+body {    
+    /* background: url('imgs/background_image_7_Fausto_luna.jpg') no-repeat center fixed;      */
+    height: 90vh;
+    width: 90%;
+    background-size: cover;
+    background-color: gold;       
+    background-image: url('./200915_0512.jpg') ;
+    /* font-family: 'Roboto', sans-serif;
+   font-family: 'Playfair Display', serif;  */
+  }

@@ -1,0 +1,16 @@
+
+.navbar-brand{
+    font-weight: bolder;
+    letter-spacing: 4px;
+}
+nav{
+    /* background-color: blueviolet; */
+    align-content: space-between;
+}
+
+ul{
+    /* background-color: chartreuse; */
+    width: 100%;
+    justify-content: flex-end;
+    
+}
