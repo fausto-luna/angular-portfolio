@@ -1,19 +1,65 @@
-<nav  class="navbar navbar-expand-lg navbar-light" >
-    <a  class="navbar-brand"  href="#">FAUSTO LUNA</a>
-        <div  class="collapse navbar-collapse"  id="navbarText">
-            <ul  class="navbar-nav">
-                <li  class="nav-item">
-                    <a  class="nav-link" routerLink="/home">Home</a>
+<mat-toolbar>
+    <!-- -------------------*ngIf='!deviceXs'------------------- -->
+    <mat-toolbar-row *ngIf='!deviceXs' style="margin-top: 0.95rem;">
+        <div class="col-4" id="col1" *ngIf="_router.url != '/'">
+            <ul class="navbar-nav" id="navbarMD">
+                <li  class="tultip liMd">
+                    <a  class="nav-link " id="blackMoon" routerLink="/about"></a>
+                    <span class="tultiptext">ABOUT</span>
                 </li>
-                <li  class="nav-item">
-                    <a  class="nav-link"  routerLink="/about">About</a>
+                <li  class=" tultip liMd">
+                     <a  class="nav-link" id="halfMoon1" routerLink="/devs"></a>
+                     <span class="tultiptext">&lt;&#x0002F;DEVS&gt;</span>
                 </li>
-                <li  class="nav-item">
-                    <a  class="nav-link"  routerLink="/contact">Contact</a>
+                <li  class=" tultip liMd">
+                    <a  class="nav-link" id="fullMoon"  routerLink="/photo"></a>
+                    <span class="tultiptext">PHOTO</span>
                 </li>
-                <li  class="nav-item">
-                    <a  class="nav-link"  routerLink="/admin/list">Admin</a>
+                <li  class=" tultip liMd">
+                    <a  class="nav-link" id="halfMoon2" routerLink="/contact"></a>
+                    <span class="tultiptext">CONTACT</span>
                 </li>
             </ul>
         </div>
-</nav>
+        <div class="col-4" id="col2">
+            <navbrand></navbrand>
+        </div>
+        <div class="col-4 d-flex justify-content-end" id="col3" *ngIf="_router.url != '/'">
+            <ul class="navbar-nav" id="ulSun">
+                <li  class="nav-item tultip">
+                    <a class="nav-link" id="sun" routerLink="/shop"></a>
+                    <span class="tultiptext">SHOP</span>
+                </li>
+            </ul>
+        </div>
+    </mat-toolbar-row>
+    <!-- -------------------*ngIf='deviceXs'------------------- -->
+    <mat-toolbar-row *ngIf='deviceXs' id='mat-toolbar-row-navbrand'>
+        <div class="col-12 text-center">
+            <navbrand></navbrand>
+        </div>
+    </mat-toolbar-row>
+    <mat-toolbar-row class="d-flex justify-content-between" *ngIf="deviceXs && _router.url != '/'"  id="mat-toolbar-row-xs">
+        
+             <a routerLink="/about">
+                ABOUT
+             </a>
+             <a routerLink="/devs">
+                 &lt;&#x0002F;DEVS&gt;
+             </a>
+             <a routerLink="/photo">
+                 PHOTO
+             </a>
+             <a routerLink="/contact">
+                 CONTACT
+             </a>
+             <a routerLink="/shop">
+                 SHOP 
+             </a>
+        
+    </mat-toolbar-row>
+</mat-toolbar>
+
+  
+
+

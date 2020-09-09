@@ -1,9 +1,21 @@
 footer{
     /* background-color: red; */
-    font-size: small;
+    /* font-size: small; */
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     text-align: center;
+    margin-top: 5rem;
+}
+i{
+    font-size: 20px;
+    margin: 8px;
+    color: rgb(104, 104, 104);
+}
+i:hover{
+    color: #000000;
+}
+.fa-envelope:hover{
+    cursor: pointer;
 }

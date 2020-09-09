@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Avenir';
+    src: url('/src/assets/fonts/Avenir.ttc') format("opentype");
+  }
+  /* body{
+    font-size: 18px;
+    
+  } */
+  .container-fluid{
+    /* background-color: rgb(219, 30, 30); */
+    height: fit-content;
+    
+  }

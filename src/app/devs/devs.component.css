@@ -1,0 +1,40 @@
+
+.row{
+    /* height: 100vh; */
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    justify-content: center;
+}
+/* .container-fluid{
+    background-color: rgb(12, 158, 19);
+}
+
+#row3{
+    background-color: rgb(230, 7, 7);
+}
+#row3col1{
+    background-color: rgb(211, 30, 181);
+}
+#row3col2{
+    background-color: rgb(124, 120, 120);
+    
+} */
+/* a{
+    height: 100%;
+    width: 100%;
+} */
+img{
+    width: 100%;
+}
+h2,h3{
+    margin-left: 13px;
+    
+}
+h2{
+    font-weight: bold;
+    font-size: 20px;
+}
+h3{
+    font-weight: lighter;
+    font-size: 18px;
+}

@@ -1,10 +1,24 @@
-body {    
-    /* background: url('imgs/background_image_7_Fausto_luna.jpg') no-repeat center fixed;      */
-    height: 90vh;
-    width: 90%;
-    background-size: cover;
-    background-color: gold;       
-    background-image: url('./200915_0512.jpg') ;
-    /* font-family: 'Roboto', sans-serif;
-   font-family: 'Playfair Display', serif;  */
-  }
+
+/* .container{
+  background-color: green;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+} */
+#row1{
+  /* background-color: violet; */
+  height: 10vh;
+  justify-content: center;
+  /* align-items: flex-end; */
+}
+
+#row2{
+  /* background-color: tomato; */
+  justify-content: center;
+  height: 80vh;
+  width: 100vw;
+  align-content: space-around;
+  align-items: center;
+  
+}
+

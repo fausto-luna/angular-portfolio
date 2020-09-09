@@ -1,0 +1,102 @@
+
+      <div class="row">
+        <div class="col-12 text-center" id="subHeader">
+            <h2>Rockets controller OOP</h2>
+            <h3>HTML5 + CSS3 + TypeScript</h3>
+        </div>
+    </div>
+    <div class="row" id="p1">
+        <div class="col">
+            <p>// ARTÍCULO</p>
+            <p>// párrafo sobre las funcionalidades de esta web</p>
+        </div>
+    </div>
+    <div class="row" id="gif">
+        <div class="col">
+            // previsualizacion GIF
+        </div>
+    </div>
+    <div class="row" id="p2">
+        <div class="col">
+            <p>// párrafo sobre las funcionalidades de esta web</p>
+            <p>// descripcion técnica detallada.</p>
+        </div>
+    </div>
+    <div class="row" id="rowBtn">
+        <div class="col">
+            <button class="btn btn-outline-dark">See Code on Github</button>
+        </div>
+    </div>
+    
+            
+           
+
+
+    <div class="container-fluid">
+        <div class="row" id="header">
+            <div class="col-3">
+                
+            </div>
+            <div class="col-9">
+
+            </div>
+        </div>
+
+        <div class="row" id="row2">
+            <div class="col-4">
+                <h1>Rocket 1</h1>
+                <p id="rocket1"></p>
+            </div>
+            <div class="col-4">
+                <p id="allRockets"></p>
+            </div>
+            <div class="col-4">
+                <h1>Rocket 2</h1>
+                <p id="rocket2"></p>
+            </div>
+        </div>
+
+        
+        <div class="row" id="rowButtons">
+            <div class="col-4" id="col1">
+                
+               <div class="row">
+                <button class="col-9 btn btn-outline-info btn-block" id="create1" ng-click="createRocket('32WESSDS')">Create Rocket</button>
+               </div>
+               <div class="row">
+                <button class="col-4 btn btn-outline-success" id="accelerate1" onclick="accelerateRocket('32WESSDS')">Accelerate</button>
+                <button class="col-4 btn btn-outline-danger" id="decelerate1" onclick="decelerateRocket('32WESSDS')">Decelerate</button>
+               </div>
+               <div class="row">
+                <button class="col-9 btn btn-outline-warning" id="print1" onclick="printRocket('32WESSDS')">Rocket Info</button>
+               </div>
+            </div>
+            <div class="col-4">
+                
+                <button class="col-9 btn btn-outline-warning" id="btnPrintAllRockets" onclick="printAllRockets()">All Rockets Info</button>
+            </div>
+            <div class="col-4" id="col2">
+                <div class="row">
+                <button class="col-9 btn btn-outline-info" id="create2" onclick="createRocket('LDSFJA32')">Create Rocket</button>
+                </div>
+                <div class="row">
+                    <button class="col-4 btn btn-outline-success" id="accelerate2" onclick="accelerateRocket('LDSFJA32')">Accelerate</button>
+                    <button class="col-4 btn btn-outline-danger" id="decelerate2" onclick="decelerateRocket('LDSFJA32')">Decelerate</button>
+                </div>
+                <div class="row">
+                    <button class="col-9 btn btn-outline-warning" id="print2" onclick="printRocket('LDSFJA32')">Rocket Info</button>
+                </div>
+            </div>
+        </div>
+        <footer class="row">
+            <i class="fab fa-galactic-republic" data-toggle="modal" data-target=".bd-example-modal-sm"></i>
+            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <i class="fab fa-galactic-republic"></i>
+                     <p>'Rockets' is an object-oriented programming (OOP) exercise built with HTML5, CSS, Bootstrap and TypeScript (ES6) for the Front End Programme @ IT Academy [Cybernarium | Barcelona Activa].</p>
+                     <p id="modalFooter">Fausto Luna. Barcelona, May 2020.</p>
+                  </div>
+                </div>
+            </div>
+        </footer>

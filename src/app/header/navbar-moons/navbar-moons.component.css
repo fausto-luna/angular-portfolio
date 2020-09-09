@@ -1,0 +1,23 @@
+@media screen and (max-width: 366px){
+ 
+  .icon{
+    margin: 20px;
+    align-content: space-around;
+    justify-content: center;
+    /* background-color: rgb(201, 24, 24); */
+   }
+
+}
+@media screen and (min-width: 367px){
+  ul{
+    justify-content: center;
+    display: inline-table;
+  }
+  .icon{
+    margin: 4vw;
+    align-content: space-around;
+    justify-content: center;
+   }
+}
+
+  

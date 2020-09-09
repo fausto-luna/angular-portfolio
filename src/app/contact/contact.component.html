@@ -1,10 +1,22 @@
 
-<div class="container">
 
-    <div class="row">
 
-      <div class="col-lg-8 col-lg-offset-2">
+  
+  <div *ngIf="!deviceXs" class="row" id="row2"><!--row2-->
+    <div class="col-lg-12 text-center">
+      <h1>CONTACT</h1>
+    </div>
+  </div><!--row2 ends-->
+  <div class="row">
+  <div class="col-8 text-center">
+    <h3>
+      Hey I'm happy to hear from you. I'll get back to you ASAP!
+    </h3>
+  </div>
+  </div>
+  <div class="row" id="row3"><!--row3-->
 
+      <div class="col-lg-12 col-lg-offset-2">
         
         <form>
 
@@ -13,7 +25,7 @@
         <div class="controls">
 
           <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-4">
               <div class="form-group">
                 <label for="firstName">Name *</label>
                 <input 
@@ -38,7 +50,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-4">
               <div class="form-group">
                 <label for="lastName">Surname *</label>
                 <input 
@@ -65,7 +77,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-4">
               <div class="form-group">
                 <label for="email">Email *</label>
                 <input
@@ -91,7 +103,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-4">
               <div class="form-group">
                 <label for="phone">Mobile Phone (ES)</label>
                 <input
@@ -110,7 +122,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-8">
               <div class="form-group">
                 <label for="message">Message *</label>
                 <textarea
@@ -136,8 +148,8 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-12">
-              <input type="submit" class="btn btn-success btn-send" value="Send message">
+            <div class="col-md-12 text-center">
+              <input type="submit" class="btn btn-outline-dark" value="Send message">
             </div>
           </div>
          
@@ -149,4 +161,4 @@
 
     </div>
 
-  </div>
+  

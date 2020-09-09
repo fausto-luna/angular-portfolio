@@ -1,3 +1,31 @@
+.row{
+ justify-content: center;
+}
+h1{
+    font-size: 18px;
+}
+h3{
+    margin-top: 2rem;
+}
 .form-control.ng-touched.ng-invalid{
     border: 2px solid red;
 }
+/* .container{
+    background-color: lawngreen;
+}
+app-header{
+background-color: lightcoral !important;
+}*/
+
+/* #row2{
+    background-color: magenta;
+    
+} */
+
+#row3{
+    /* background-color: rgb(211, 65, 65); */
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+ 

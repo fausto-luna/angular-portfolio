@@ -1,0 +1,18 @@
+.row{
+    display: flex;
+    
+}
+#subHeader{
+    display: inline-block;
+   
+    background-color: rgb(44, 153, 226);
+}
+#p1,#gif,#p2{
+    height: 20vh;
+}
+/* #p1{
+    background-color: rgb(194, 192, 192);
+} */
+#gif{
+    background-color: rgb(179, 167, 250);
+}

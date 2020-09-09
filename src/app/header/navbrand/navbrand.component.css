@@ -1,0 +1,18 @@
+
+  h1{
+    font-size: 24px;
+    /* font-size: 1.8vw;  */
+    font-weight: bold;
+    /* margin-top: 5vh; */
+    /* letter-spacing: 6px; */
+    letter-spacing: 0.2vw;
+    /* margin-top: 11mm; */
+    height: fit-content;
+    width: fit-content;
+    /* background-color: rgb(53, 235, 17); */
+    align-self: center;
+  }
+  
+  a{
+      color: black;
+  }

@@ -1,16 +1,174 @@
-
-.navbar-brand{
-    font-weight: bolder;
-    letter-spacing: 4px;
+/* ----- GLOBAL ----- */
+mat-toolbar-row{
+  /* background-color: rgb(31, 29, 204); */
+  justify-content: center;
 }
-nav{
-    /* background-color: blueviolet; */
-    align-content: space-between;
+a{
+  font-size: 16px;
+  color: #000000;
+  /* background-color: rgb(180, 23, 23); */
 }
 
-ul{
-    /* background-color: chartreuse; */
-    width: 100%;
-    justify-content: flex-end;
+
+/* -----deviceXs----- */
+.row{
+  /* height: 14vh; */
+  height: fit-content;
+}
+#mat-toolbar-row-xs{
+  /* background-color: rgb(93, 206, 28); */
+  padding: unset;
+}
+#mat-toolbar-row-navbrand{
+  /* background-color: rgb(228, 13, 217); */
+  margin-top: 0.95rem;
+  width: 100%;
+  
+}
+
+
+/*----DeviceMd-----!*/
+/* #col1{
+  background-color: rgb(204, 207, 12); 
+} */
+#col2{
+  /* background-color: rgb(212, 23, 23); */
+  display: flex;
+  justify-content: center;
+}
+
+#col3{
+  /* background-color: rgb(65, 225, 100); */
+  
+  overflow: hidden;
+  margin-top: 37px;
+}
+#navbarMD{
+  /* background-color: blueviolet; */
+  display: inline-table; 
+}
+#ulSun{
+  height: 60px;
+}
+.liMd{
+  margin-right: 20px;
+  /* background-color: rgb(25, 212, 25); */
+}
+
+#blackMoon{
+  height: 20px;
+  width: 20px; 
+  background-color: #020202;
+  border-radius: 50%;
+}
+
+#halfMoon1 {
+  /* margin: 40px auto 0; */
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  /* display: inline-block; */
+  /* margin-top: -8px; */
+}
+  
+#halfMoon1:before, #halfMoon1:after {
+  content: "";
+  width: 10px;
+  height: 20px;
+}
+  #halfMoon1:before {
+    float: left;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background: #000000;
     
+  }
+  #halfMoon1:after {
+    float: right;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: #d3d2d2;
+  }
+#fullMoon{
+    height: 20px;
+    width: 20px;
+    background-color: #d3d2d2;
+    border-radius: 50%;
+    /* display: inline-block; */
 }
+
+#halfMoon2 {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    /* display: inline-block; */
+    /* margin-top: -8px; */
+  }
+  
+  #halfMoon2:before, #halfMoon2:after {
+    content: "";
+    width: 10px;
+    height: 20px;
+  }
+  #halfMoon2:before {
+    float: left;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background: #d3d2d2;
+    
+  }
+  #halfMoon2:after {
+    float: right;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: #000000;
+}
+
+#sun{
+    height: 20px;
+    width: 20px;
+    /* background-color: #fac024; */
+    background-color: #f4b824;
+    border-radius: 50%;
+    padding: 8px;
+  }
+
+/* tultip container */
+.tultip {
+    color: #000000;
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+  
+  /* tultip text */
+  .tultip .tultiptext {
+    visibility: hidden;
+    width: 120px;
+    
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+   
+    /* Position the tultip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+  
+    width: 120px;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
+    margin-top: 3mm;
+  }
+  
+  /* Show the tultip text when you mouse over the tultip container */
+  .tultip:hover .tultiptext {
+    visibility: visible;
+  }
+
+
