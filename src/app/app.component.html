@@ -10,13 +10,14 @@
     
     
 
-<div [@routeAnimations]="prepareRoute(outlet)">
+<div [@routeAnimations]="prepareRoute(outlet)" class="page-wrap">
     <router-outlet #outlet="outlet"></router-outlet>
 </div>
 
    
-    
-    <app-footer></app-footer>
+    <app-footer></app-footer><!--row-->
+
+
 </div>
     
 

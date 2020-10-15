@@ -1,4 +1,13 @@
-
+a{
+  color: white;
+  
+  }
+  a:hover{
+    border: 2px solid rgb(255, 255, 255);
+    transform: scale(1.2);
+    transition: all 0.3s ease-in-out;
+    
+  }
 @media screen and (max-width: 320px){}
   #blackMoon{
     height: 32px;
@@ -8,13 +17,14 @@
     background-color: #020202;
     border-radius: 50%;
     /* display: inline-block; */
+   
 }
 
 
 @media screen and (min-width: 321px){}
   #blackMoon{
-    height: 38px;
-    width: 38px; 
+    height: 40px;
+    width: 40px; 
     /* height: 12vw;
     width: 12vw; */
     background-color: #020202;
@@ -25,6 +35,7 @@
 @media screen and (max-width: 1024px){
   .tultip .tultiptext {
     visibility: visible;
+    
   }
 
 }
@@ -37,6 +48,7 @@
   /* Show the tultip text when you mouse over the tultip container */
   .tultip:hover .tultiptext {
     visibility: visible;
+    background-color: rgb(245,245,245);
   }
 
 
@@ -53,10 +65,10 @@
 .tultip .tultiptext {
   visibility: hidden;
   width: 120px;
-  
+  background-color: rgb(245,245,245);
   color: black;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 200;
   letter-spacing: 1px;
   text-align: center;
   padding: 5px 0;
@@ -65,7 +77,6 @@
   /* Position the tultip text - see examples below! */
   position: absolute;
   z-index: 1;
-
   width: 120px;
   top: 100%;
   left: 50%;

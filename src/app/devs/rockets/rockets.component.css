@@ -1,144 +1,19 @@
 
-  .row{
+.row{
     display: flex;
-    
-}
-#subHeader{
-    display: inline-block;
-   
-    background-color: rgb(44, 153, 226);
-}
-#p1,#gif,#p2{
-    height: 20vh;
-}
-/* #p1{
-    background-color: rgb(194, 192, 192);
-} */
-#gif{
-    background-color: rgb(179, 167, 250);
-}
-
-.container-fluid{
-    background-image: url('/assets/imgs/devs/rockets-nasa.jpg');
-    background-position: top;
-    color: white;
-}
-#header{
-    height: 10vh;
-}
-.col-4>p{
-    font-size: 2rem;
-    margin-top: 5rem;
-}
-h1{
-    font-size: 1.5rem;
-}
-footer{
-    width: 100vw;
-    height: 10vh;
-    /* background-color: lightcoral; */
     justify-content: center;
-    justify-items: center;
-}
-i{
-    align-self: center;
-    margin-top: -3rem;
-    font-size: 4rem;
-}
-i:hover{
-    cursor: pointer;
-    color: #38a3b7;
-}
-.moddal-dialog{
-    background-color: violet;
-}
-.modal-content{
-    background-image: element("fas fa-space-shuttle");
-    background-color: #184090;
-    text-align: justify;
-    padding: 2rem;
-    border-radius: 25px;
-    border-style: solid;
-    border-color: white;
-    font-size: 2rem;
-}
-.modal-content>i{
-   font-size: 5rem;
-   margin: 2rem;
-    color: #f33e2c;
-}
-#modalFooter{
-    font-size: 1rem;
-    padding: 1rem;
-    text-align: center;
-}
-
-.dot{
-    /* color: #184090; */
-    margin: 3rem;
-    height: 75px;
-    width: 75px;
-    background-color: #184090;
-    border-radius: 50%;
-    display: inline-block;
-    text-align: center;
-    border-color: white;
-    border-style: solid;
-}
-#row2{
-    height: 60vh;
-    white-space: normal;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    /* background-color: tomato; */
-}
-#row2:hover {
-    overflow: visible;
-    
-  }
-#rowButtons{
-    /* background-color: darkgoldenrod;  */
-    height: 20vh;
-    justify-content: space-around;
-}
-.col-4{
-    /* background-color: darkgreen; */
-    text-align: center;
-}
-h1{
     margin-top: 3rem;
 }
-/* #col1{
-    background-color: rgb(38, 133, 14);
-} */
-.row{
-    justify-content: center;
+#subHeader{
     
+    margin-top: 1rem;
+    /* background-color: rgb(44, 153, 226); */
 }
-button{
-    margin-top: 0.5rem;
-    
-    justify-self: space-between;
+img{
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 5px;
 }
-
-.btn-outline-success{
-    margin-right: 2.4rem !important;
-}
-#allRockets{
-    text-shadow:
-		-0.5px -0.5px 0 #2f2f3c,
-		0.5px -0.5px 0 #2f2f3c,
-		-0.5px 0.5px 0 #2f2f3c,
-		0.5px 0.5px 0 #2f2f3c;
-}
-#btnPrintAllRockets{
-    margin-top: 3.4rem;
-    /* text-shadow:
-		-1px -1px 0 #2f2f3c,
-		1px -1px 0 #2f2f3c,
-		-1px 1px 0 #2f2f3c,
-		1px 1px 0 #2f2f3c; */
-}
-#btnPrintAllRockets:hover{
-    color: white;
+a{
+    margin-bottom: 4rem;
 }

@@ -1,102 +1,60 @@
-
-      <div class="row">
-        <div class="col-12 text-center" id="subHeader">
-            <h2>Rockets controller OOP</h2>
-            <h3>HTML5 + CSS3 + TypeScript</h3>
+      <div class="row" id="subHeader">
+        <div class="col-12 text-center" >
+            <h2>Rocket controller</h2>
+            
         </div>
     </div>
     <div class="row" id="p1">
-        <div class="col">
-            <p>// ARTÍCULO</p>
-            <p>// párrafo sobre las funcionalidades de esta web</p>
+        <div class="col-sm-8">
+            <h3>Let the race begin</h3>
+            <p>
+                This app gets you closer to your dream of being an astronaut 
+                and pilot your own rocket. How about that?
+            </p>
+            <p> 
+                First you should create your rocket. Once your brand new rocket
+                 is created it will be identified by an 8-character code and a 
+                 number of thrusters will be assigned.
+                Also, you can create two rockets and organise a rocket race.
+                Rocket 1 will always have 3 thrusters and Rocket 2 will have 6 thrusters.
+            </p> 
+            <p> 
+                Now you are ready to launch your spacecraft! Accelerate and 
+                decelerate by pressing the corresponding as.
+                Be aware that the maximum speed of your rocket is limited by the power of its thrusters. 
+            </p> 
+            <p>Rocket 1: 3 thrusters with a maximum  power of 10, 30 and 80.</p> 
+                
+            <p>Rocket 2: 6 thrusters with a maximum power of 30, 40, 50, 50, 30 and 10.</p> 
+            
         </div>
     </div>
     <div class="row" id="gif">
-        <div class="col">
-            // previsualizacion GIF
+        <div class="col-sm-8">
+            <img src="assets/imgs/devs/rocketsDemo.gif" alt="rocket controller gif demo">
         </div>
     </div>
     <div class="row" id="p2">
-        <div class="col">
-            <p>// párrafo sobre las funcionalidades de esta web</p>
-            <p>// descripcion técnica detallada.</p>
+        <div class="col-sm-8">
+            <h3>HTML5 + CSS3 + TypeScript</h3>
+            <p>
+                This approach is the result of an object-oriented programming (OOP) 
+                exercise built with HTML5, CSS3, Bootstrap and TypeScript (ES6) 
+                for the Front End Programme @ IT Academy [Cybernarium | 
+                Barcelona Activa].
+            </p>
+            <p> 
+                The goal of this project is to implement the Model View Controller (MVC) 
+                design pattern in order to distribute the application's code in their own 
+                containers. A neat and clean organisation of the components that will make 
+                life easier. Also, dealing with variables, conditionals, loops and arrays 
+                was a point of building this little app.
+            </p>
+
         </div>
     </div>
     <div class="row" id="rowBtn">
-        <div class="col">
-            <button class="btn btn-outline-dark">See Code on Github</button>
+        <div class="col-sm-8 text-center">
+            <a href='https://github.com/fausto-luna/rockets_OOP_TypeScript' class="btn btn-outline-dark">See Code on Github</a>
         </div>
     </div>
-    
-            
-           
-
-
-    <div class="container-fluid">
-        <div class="row" id="header">
-            <div class="col-3">
-                
-            </div>
-            <div class="col-9">
-
-            </div>
-        </div>
-
-        <div class="row" id="row2">
-            <div class="col-4">
-                <h1>Rocket 1</h1>
-                <p id="rocket1"></p>
-            </div>
-            <div class="col-4">
-                <p id="allRockets"></p>
-            </div>
-            <div class="col-4">
-                <h1>Rocket 2</h1>
-                <p id="rocket2"></p>
-            </div>
-        </div>
-
-        
-        <div class="row" id="rowButtons">
-            <div class="col-4" id="col1">
-                
-               <div class="row">
-                <button class="col-9 btn btn-outline-info btn-block" id="create1" ng-click="createRocket('32WESSDS')">Create Rocket</button>
-               </div>
-               <div class="row">
-                <button class="col-4 btn btn-outline-success" id="accelerate1" onclick="accelerateRocket('32WESSDS')">Accelerate</button>
-                <button class="col-4 btn btn-outline-danger" id="decelerate1" onclick="decelerateRocket('32WESSDS')">Decelerate</button>
-               </div>
-               <div class="row">
-                <button class="col-9 btn btn-outline-warning" id="print1" onclick="printRocket('32WESSDS')">Rocket Info</button>
-               </div>
-            </div>
-            <div class="col-4">
-                
-                <button class="col-9 btn btn-outline-warning" id="btnPrintAllRockets" onclick="printAllRockets()">All Rockets Info</button>
-            </div>
-            <div class="col-4" id="col2">
-                <div class="row">
-                <button class="col-9 btn btn-outline-info" id="create2" onclick="createRocket('LDSFJA32')">Create Rocket</button>
-                </div>
-                <div class="row">
-                    <button class="col-4 btn btn-outline-success" id="accelerate2" onclick="accelerateRocket('LDSFJA32')">Accelerate</button>
-                    <button class="col-4 btn btn-outline-danger" id="decelerate2" onclick="decelerateRocket('LDSFJA32')">Decelerate</button>
-                </div>
-                <div class="row">
-                    <button class="col-9 btn btn-outline-warning" id="print2" onclick="printRocket('LDSFJA32')">Rocket Info</button>
-                </div>
-            </div>
-        </div>
-        <footer class="row">
-            <i class="fab fa-galactic-republic" data-toggle="modal" data-target=".bd-example-modal-sm"></i>
-            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
-                    <div class="modal-content">
-                        <i class="fab fa-galactic-republic"></i>
-                     <p>'Rockets' is an object-oriented programming (OOP) exercise built with HTML5, CSS, Bootstrap and TypeScript (ES6) for the Front End Programme @ IT Academy [Cybernarium | Barcelona Activa].</p>
-                     <p id="modalFooter">Fausto Luna. Barcelona, May 2020.</p>
-                  </div>
-                </div>
-            </div>
-        </footer>

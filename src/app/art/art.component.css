@@ -1,0 +1,71 @@
+#art-dir,.section{
+    /* background-color: rgb(13, 132, 168); */
+    margin-top: 3rem;
+}
+.col-md-4{
+    /* background-color: rgb(174, 64, 64); */
+    margin-top: 2rem;
+}
+.row{
+  
+    display: flex;
+    justify-content: center;
+}
+img{
+    width: 100%;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+}
+h3,h4{
+     width: 100%;
+    margin-left: 15px;
+    font-size: 18px;
+    
+}
+h2,h3{
+font-weight: 900;
+font-size: 18px;
+/* background-color: rgb(25, 56, 231); */
+}
+
+.art-direction{
+    background-color: rgb(255, 255, 255);
+}
+
+/* tultip container */
+.tultip {
+    color: #000000;
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+  
+  /* tultip text */
+  .tultip .tultiptext {
+    visibility: hidden;
+    width: 120px;
+    
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+   
+    /* Position the tultip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+  
+    width: 120px;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
+    margin-top: 3mm;
+  }
+  
+  /* Show the tultip text when you mouse over the tultip container */
+  .tultip:hover .tultiptext {
+    visibility: visible;
+  }

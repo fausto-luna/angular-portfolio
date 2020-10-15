@@ -33,10 +33,6 @@ export class AppComponent implements OnInit ,OnDestroy {
       (result:MediaChange) =>{
         console.log(result.mqAlias);
         this.deviceXs = result.mqAlias === 'xs' ? true : false;
-        this.deviceSm = result.mqAlias === 'sm' ? true : false;
-        this.deviceMd = result.mqAlias === 'md' ? true : false;
-        this.deviceLg = result.mqAlias === 'lg' ? true : false;
-        this.deviceXl = result.mqAlias === 'xl' ? true : false; 
       }
     );
 

@@ -1,18 +1,24 @@
 .row{
     display: flex;
-    
+    justify-content: center;
+    margin-top: 3rem;
 }
-#subHeader{
-    display: inline-block;
-   
-    background-color: rgb(44, 153, 226);
+#rowSubheader{
+    margin-top: 1rem;
 }
-#p1,#gif,#p2{
-    height: 20vh;
-}
-/* #p1{
-    background-color: rgb(194, 192, 192);
-} */
 #gif{
-    background-color: rgb(179, 167, 250);
+    /* background-color: rgb(179, 167, 250); */
+    height: 100%;
 }
+img{
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+a{
+    margin-bottom: 4rem;
+}
+p{
+    font-size: 18px;
+}
+

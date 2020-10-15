@@ -1,7 +1,48 @@
 <mat-toolbar>
     <!-- -------------------*ngIf='!deviceXs'------------------- -->
-    <mat-toolbar-row *ngIf='!deviceXs' style="margin-top: 0.95rem;">
+    <mat-toolbar-row *ngIf='!deviceXs'>
         <div class="col-4" id="col1" *ngIf="_router.url != '/'">
+            <navbrand></navbrand>
+        </div>
+<div class="col-4" id="col2">
+    
+        <h2 *ngIf="_router.url == '/about'">ABOUT</h2>
+        <h2 *ngIf="_router.url == '/contact'">CONTACT</h2>
+        <h2 *ngIf="_router.url == '/shop'">SHOP</h2>
+        <app-header-devs *ngIf="
+        
+        _router.url == '/devs' ||
+        _router.url == '/devs/rating-html-css-js' ||
+        _router.url == '/devs/rockets' ||
+        _router.url == '/devs/vehicle-registration' ||
+        _router.url == '/devs/chuck-norris-jokes' ||
+        _router.url == '/devs/food-map' ||
+        _router.url == '/devs/this-web' ||
+        _router.url == '/devs/uaybalam' ||
+        _router.url == '/devs/vioko'
+        
+        "></app-header-devs>
+        <app-header-art *ngIf="
+
+        _router.url == '/art' || 
+        _router.url == '/art/fabrica-desitjos' ||
+        _router.url == '/art/facil-maldita-nerea' ||
+        _router.url == '/art/luz-primera' ||
+        _router.url == '/art/grec-difusor' ||
+        _router.url == '/art/instante-no-decisivo' ||
+        _router.url == '/art/la-cornisa' ||
+        _router.url == '/art/last-day-on-earth' ||
+        _router.url == '/art/medieval-wedding' ||
+        _router.url == '/art/spanish-revolution' ||
+        _router.url == '/art/uay-balam-art'
+
+        "></app-header-art>
+     
+    
+        
+    
+</div>
+        <div class="col-4 d-flex justify-content-end" id="col3" *ngIf="_router.url != '/'">
             <ul class="navbar-nav" id="navbarMD">
                 <li  class="tultip liMd">
                     <a  class="nav-link " id="blackMoon" routerLink="/about"></a>
@@ -12,20 +53,13 @@
                      <span class="tultiptext">&lt;&#x0002F;DEVS&gt;</span>
                 </li>
                 <li  class=" tultip liMd">
-                    <a  class="nav-link" id="fullMoon"  routerLink="/photo"></a>
-                    <span class="tultiptext">PHOTO</span>
+                    <a  class="nav-link" id="fullMoon"  routerLink="/art"></a>
+                    <span class="tultiptext">ART</span>
                 </li>
                 <li  class=" tultip liMd">
                     <a  class="nav-link" id="halfMoon2" routerLink="/contact"></a>
                     <span class="tultiptext">CONTACT</span>
                 </li>
-            </ul>
-        </div>
-        <div class="col-4" id="col2">
-            <navbrand></navbrand>
-        </div>
-        <div class="col-4 d-flex justify-content-end" id="col3" *ngIf="_router.url != '/'">
-            <ul class="navbar-nav" id="ulSun">
                 <li  class="nav-item tultip">
                     <a class="nav-link" id="sun" routerLink="/shop"></a>
                     <span class="tultiptext">SHOP</span>
@@ -47,8 +81,8 @@
              <a routerLink="/devs">
                  &lt;&#x0002F;DEVS&gt;
              </a>
-             <a routerLink="/photo">
-                 PHOTO
+             <a routerLink="/art">
+                 ART
              </a>
              <a routerLink="/contact">
                  CONTACT

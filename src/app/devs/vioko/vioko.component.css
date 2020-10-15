@@ -1,0 +1,24 @@
+
+.row{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+#subHeader{
+    
+    margin-top: 1rem;
+    /* background-color: rgb(44, 153, 226); */
+}
+img{
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+a{
+    font-weight: bolder;
+    color: #f4b824;
+    font-size: 25px;
+}
+p{
+    font-size: 18px;
+}

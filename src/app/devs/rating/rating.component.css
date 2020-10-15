@@ -1,58 +1,168 @@
 
-  .row{
-    display: flex;
-    
+.row{
+  display: flex;
+  justify-content: center;
+  
 }
 #subHeader{
-    display: inline-block;
-   
-    background-color: rgb(44, 153, 226);
+  display: inline-block;
 }
-#p1,#gif,#p2{
-    height: 20vh;
+.article{
+  margin-top: 3rem;
 }
-/* #p1{
-    background-color: rgb(194, 192, 192);
-} */
-#gif{
-    background-color: rgb(179, 167, 250);
+p{
+  font-size: 18px;
+}
+li{
+  margin-bottom: 18px;
+  
+}
+ul{ 
+  list-style-type: none;
 }
 
-
-  #row1{
-    background-color: gold;
-    direction: rtl;
-    justify-content: center;
-    text-align: center;
-  }
+#row1{
+  /* background-color: gold; */
+  direction: rtl;
+  display: flex;
+  justify-content: center;
+  /* background-color: rgb(64, 196, 38); */
+  height: 30vh;
+}
   
   #hint{
-    color: white;
+    color: #f4b824;
     font-size: 1rem;
     /* padding-left: 1rem; */
     padding-right: 1rem;
   }
   #hint:hover{
-    color: gold;
+    color: #f4b824;
   }
   #hint:hover ~ #hint, #hint:hover{
-    color: gold;
+    color: #f4b824;
   }
-  .icecream{
-      /* background-color: rgb(241, 18, 18); */
+
+
+  @media screen and (min-width:685px) {
+
+    
+    .icecream{
     text-align: center;
-    /* font-size: 7rem; */
+    /* font-size: 6rem; */
     font-size: 9vw;
-    margin-top: 14vh;
-    color: gold;
+    /* margin-top: 14vh; */
+    color: rgb(245, 245, 245);
+    letter-spacing: 6px;
+    height: fit-content;
   }
+
+  .star{
+    /* color: rgb(242, 194, 0); */
+    color: #f4b824;
+    /* font-size: 6.5rem; */
+    font-size: 7.5vw;
+    padding: 0 1vw;  /* space out the stars  */
+    margin-top: 3rem;
+    
+  }
+  #divMessagge{
+    /* background-color: blue; */
+    align-items: center;
+    align-content: center;
+    color:  rgb(218, 24, 114);
+   text-align: center;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+  }
+  #ratingMessage{
+    font-size: 4rem;
+    padding-top: 2rem;
+  }
+}
+
+
+
+
+@media screen and (max-width:685px ) {
+  #row1{
+    /* background-color: rgb(192, 212, 13); */
+    height: fit-content;
+  }
+  #row2{
+    background-color: rgb(168, 18, 18);
+    height:   90px;
+  }
+  #row2col1{
+    display: none;
+    background-color: rgb(185, 17, 17);
+  }
+  #row2col2{
+    width: 100%;
+    /* background-color: rgb(25, 34, 165); */
+  }
+  #row2col3{
+    display: none;
+  }
+#row3{
+  height: fit-content;
+  
+}
+
+  .icecream{
+    font-size: 30px;
+    margin: 30px 0;
+    text-align: center;
+    color: rgb(245, 245, 245);
+
+  }
+ 
+  .star{
+    /* color: rgb(242, 194, 0); */
+    color: #f4b824;
+    /* font-size: 6.5rem; */
+    font-size: 45px;
+    padding: 0 1vw;  /* space out the stars  */
+    margin: 0 9px; 
+  }
+
+ 
+  #divMessagge{
+    /* background-color: blue; */
+    align-items: center;
+    align-content: center;
+    color:  rgb(218, 24, 114);
+   text-align: center;
+    
+    display: flex;
+    justify-content: center;
+    
+    
+  }
+  #ratingMessage{
+    font-size: 2rem;
+  }
+
+
+}
+
+  #colDoYou{
+    display: flex;
+    /* background-color: rgb(9, 9, 197); */
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+  
   .icecream:hover ~ .icecream, .icecream:hover{
     color: rgb(218, 24, 114);
   }
   
   #row2{
     height: 20vh;
-    background-color: gold;
+    background-color: rgb(245, 245, 245);
   }
   
   #row2col1{
@@ -69,24 +179,14 @@
     /* background-color: green !important; */
     height: 100%;
   }
-  .col-12{
-    height: 40vh;
-    /* background-color: teal !important; */
-  }
+ 
   
   .stars{
     direction: rtl;
-    
-    width: fit-content;
+    /* width: fit-content; */
   }  
   
-  .star{
-    /* color: rgb(242, 194, 0); */
-    color: white;
-    /* font-size: 6.5rem; */
-    font-size: 7.5vw;
-     padding: 0 1vw;  /* space out the stars  */
-  }
+  
   
   .star.rated{
     color: rgb(218, 24, 114);
@@ -96,48 +196,11 @@
     color: rgb(218, 24, 114);
   }
   
-  #ratingMessage{
-    font-size: 4rem;
-    padding-top: 2rem;
-  }
+ 
   
-  #divMessagge{
-    /* background-color: blue; */
-    align-items: center;
-    align-content: center;
-    color:  rgb(218, 24, 114);
-   text-align: center;
-  }
   
-  .footer{
-    /* background-color: lawngreen; */
-    min-block-size: 3rem;
-    text-align: center;
-    font-size: 0.7rem;
-    color: gold;
-  }
-  .footer:hover{
-    color: rgb(218, 24, 114)
-  }
   
-  #hintFooter{
-    color: white;
-    font-size: 1rem;
-    /* padding-left: 1rem; */
-  
-  }
-  
+ 
   a{
-    color: white;
-  }
-  
-  a:hover{
-    color: blue;
-  }
-  
-  #hintFooter:hover > a{
-    color: blue;
-  }
-  #row3{
-      background-color: gold;
+    margin: 3rem 0;
   }

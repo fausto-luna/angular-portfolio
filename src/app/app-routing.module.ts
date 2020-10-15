@@ -6,12 +6,19 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { ShopComponent } from './shop/shop.component';
 
-import { PhotoComponent } from './photo/photo.component';
-import { LaCornisaComponent } from './photo/la-cornisa/la-cornisa.component';
-import { LastDayOnEarthComponent } from './photo/last-day-on-earth/last-day-on-earth.component';
-import { InstanteNoDecisivoComponent } from './photo/instante-no-decisivo/instante-no-decisivo.component';
-import { HighLandComponent } from './photo/high-land/high-land.component';
-import { FirstLightComponent } from './photo/first-light/first-light.component';
+import { ArtComponent } from './art/art.component';
+import { LaCornisaComponent } from './art/la-cornisa/la-cornisa.component';
+import { LastDayOnEarthComponent } from './art/last-day-on-earth/last-day-on-earth.component';
+import { InstanteNoDecisivoComponent } from './art/instante-no-decisivo/instante-no-decisivo.component';
+import { HighLandComponent } from './art/high-land/high-land.component';
+import { FirstLightComponent } from './art/first-light/first-light.component';
+import { GrecDifusorComponent } from './art/grec-difusor/grec-difusor.component';
+import { SpanishRevolutionComponent } from './art/spanish-revolution/spanish-revolution.component';
+import { FacilMalditaNereaComponent } from './art/facil-maldita-nerea/facil-maldita-nerea.component';
+import { FabricaDesitjosComponent } from './art/fabrica-desitjos/fabrica-desitjos.component';
+import { UayBalamArtComponent } from './art/uay-balam-art/uay-balam-art.component';
+import { MedievalWeddingComponent } from './art/medieval-wedding/medieval-wedding.component';
+
 
 import { DevsComponent } from './devs/devs.component';
 import { RatingComponent } from './devs/rating/rating.component';
@@ -20,6 +27,11 @@ import { VehicleRegistrationComponent } from './devs/vehicle-registration/vehicl
 import { ChuckComponent } from './devs/chuck/chuck.component';
 import { FoodMapComponent } from './devs/food-map/food-map.component';
 import { ThisWebComponent } from './devs/this-web/this-web.component';
+import { UaybalamComponent } from './devs/uaybalam/uaybalam.component';
+import { ViokoComponent } from './devs/vioko/vioko.component';
+
+
+
 
 const routes: Routes = [
   { path: '', component: HomeComponent, data: {animation: 'HomePage'} },
@@ -28,59 +40,27 @@ const routes: Routes = [
   { path: 'devs/rating-html-css-js', component: RatingComponent },
   { path: 'devs/rockets', component: RocketsComponent },
   { path: 'devs/vehicle-registration', component: VehicleRegistrationComponent },
-  { path: 'devs/chuck-norris-jokes',
-    component: ChuckComponent },
-  {
-    path: 'devs/food-map',
-    component: FoodMapComponent
-  },
-  {
-    path: 'devs/this-web',
-    component: ThisWebComponent
-  },
-  {
-    path: 'photo',
-    component: PhotoComponent,
-    data: { animation: 'PhotoPage' }
-  },
-  {
-    path: 'photo/la-cornisa',
-    component: LaCornisaComponent
-  },
-  {
-    path: 'photo/last-day-on-earth',
-    component: LastDayOnEarthComponent
-  },
-  {
-    path: 'photo/instante-no-decisivo',
-    component: InstanteNoDecisivoComponent
-  },
-  {
-    path: 'photo/high-land',
-    component: HighLandComponent
-  },
-  {
-    path: 'photo/instante-no-decisivo',
-    component: HighLandComponent
-  },
-  {
-    path: 'photo/first-light',
-    component: FirstLightComponent
-  },
-  {
-    path: 'about',
-    component: AboutComponent, data: { animation: 'AboutPage'}
-  },
-  {
-    path: 'contact',
-    component: ContactComponent,
-    data: { animation: 'ContactPage' }
-  },
-  {
-    path: 'shop',
-    component: ShopComponent,
-    data: { animation: 'ShopPage' }
-  }
+  { path: 'devs/chuck-norris-jokes', component: ChuckComponent },
+  { path: 'devs/food-map', component: FoodMapComponent },
+  { path: 'devs/this-web', component: ThisWebComponent },
+  { path: 'devs/uaybalam', component: UaybalamComponent },
+  { path: 'devs/vioko',  component: ViokoComponent },
+  { path: 'art', component: ArtComponent, data: { animation: 'artPage' } },
+  { path: 'art/la-cornisa', component: LaCornisaComponent },
+  { path: 'art/last-day-on-earth', component: LastDayOnEarthComponent },
+  { path: 'art/instante-no-decisivo', component: InstanteNoDecisivoComponent },
+  { path: 'art/high-land', component: HighLandComponent },
+  { path: 'art/instante-no-decisivo', component: HighLandComponent },
+  { path: 'art/luz-primera', component: FirstLightComponent },
+  { path: 'art/grec-difusor',  component: GrecDifusorComponent },
+  { path: 'art/spanish-revolution', component: SpanishRevolutionComponent },
+  { path: 'art/facil-maldita-nerea', component: FacilMalditaNereaComponent },
+  { path: 'art/fabrica-desitjos', component: FabricaDesitjosComponent },
+  { path: 'art/uay-balam-art', component: UayBalamArtComponent },
+  { path: 'art/medieval-wedding', component: MedievalWeddingComponent },
+  { path: 'about', component: AboutComponent, data: { animation: 'AboutPage'} },
+  { path: 'contact', component: ContactComponent, data: { animation: 'ContactPage' } },
+  { path: 'shop', component: ShopComponent, data: { animation: 'ShopPage' } }
 ];
 
 @NgModule({

@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+
+
 
 @Component({
   selector: 'app-chuck',
@@ -6,10 +8,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./chuck.component.css']
 })
 export class ChuckComponent implements OnInit {
-
-  constructor() { }
-
   ngOnInit(): void {
+    
   }
+
+  
 
 }

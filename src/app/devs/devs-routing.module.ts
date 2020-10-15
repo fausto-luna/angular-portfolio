@@ -4,10 +4,9 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { DevsComponent } from './devs.component';
 
+import { ThisWebComponent } from './this-web/this-web.component';
 import { RatingComponent } from './rating/rating.component';
 import { RocketsComponent } from './rockets/rockets.component';
-
-
 import { VehicleRegistrationComponent } from './vehicle-registration/vehicle-registration.component';
 import { ChuckComponent } from './chuck/chuck.component';
 import { FoodMapComponent } from './food-map/food-map.component';
@@ -17,6 +16,10 @@ const routes: Routes = [
         path: 'devs',
         component: DevsComponent,
         children: [
+            {
+                path: 'this-web',
+                component: ThisWebComponent
+            },
             {
                 path: 'rating-html-css-js',
                 component: RatingComponent

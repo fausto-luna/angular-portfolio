@@ -5,7 +5,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 import { AppRoutingModule } from './app-routing.module';
-//import { PhotoModule } from './photo/photo.module';
+//import { artModule } from './art/art.module';
 //import { DevsModule } from './devs/devs.module';
 
 import { AppComponent } from './app.component';
@@ -13,21 +13,35 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 
-import { PhotoComponent } from './photo/photo.component';
-import { HeaderPhotoComponent } from './photo/header-photo/header-photo.component';
-import { LaCornisaComponent } from './photo/la-cornisa/la-cornisa.component';
-import { LastDayOnEarthComponent } from './photo/last-day-on-earth/last-day-on-earth.component';
-import { InstanteNoDecisivoComponent } from './photo/instante-no-decisivo/instante-no-decisivo.component';
-import { HighLandComponent } from './photo/high-land/high-land.component';
-import { FirstLightComponent } from './photo/first-light/first-light.component';
+import { ArtComponent } from './art/art.component';
+import { HeaderArtComponent } from './art/header-art/header-art.component';
+import { LaCornisaComponent } from './art/la-cornisa/la-cornisa.component';
+import { LastDayOnEarthComponent } from './art/last-day-on-earth/last-day-on-earth.component';
+import { InstanteNoDecisivoComponent } from './art/instante-no-decisivo/instante-no-decisivo.component';
+import { HighLandComponent } from './art/high-land/high-land.component';
+import { FirstLightComponent } from './art/first-light/first-light.component';
+import { GrecDifusorComponent } from './art/grec-difusor/grec-difusor.component';
+import { SpanishRevolutionComponent } from './art/spanish-revolution/spanish-revolution.component';
+import { FacilMalditaNereaComponent } from './art/facil-maldita-nerea/facil-maldita-nerea.component';
+import { FabricaDesitjosComponent } from './art/fabrica-desitjos/fabrica-desitjos.component';
+import { UayBalamArtComponent } from './art/uay-balam-art/uay-balam-art.component';
+import { MedievalWeddingComponent } from './art/medieval-wedding/medieval-wedding.component';
+
 
 import { DevsComponent } from './devs/devs.component';
+import { ThisWebComponent } from './devs/this-web/this-web.component';
+
+
 import { RatingComponent } from './devs/rating/rating.component';
 import { RocketsComponent } from './devs/rockets/rockets.component';
 import { VehicleRegistrationComponent } from './devs/vehicle-registration/vehicle-registration.component';
 import { ChuckComponent } from './devs/chuck/chuck.component';
 import { FoodMapComponent } from './devs/food-map/food-map.component';
 import { HeaderDevsComponent } from './devs/header-devs/header-devs.component';
+import { UaybalamComponent } from './devs/uaybalam/uaybalam.component';
+import { ViokoComponent } from './devs/vioko/vioko.component';
+
+
 
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
@@ -56,25 +70,36 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
 import { NgbdDropdownBasic } from './header/dropdown-basic/dropdown-basic.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
     HomeComponent,
-    PhotoComponent,
+    ArtComponent,
     LaCornisaComponent,
-    HeaderPhotoComponent,
+    HeaderArtComponent,
     LastDayOnEarthComponent,
     InstanteNoDecisivoComponent,
     HighLandComponent,
     FirstLightComponent,
+    GrecDifusorComponent,
+    SpanishRevolutionComponent,
+    FacilMalditaNereaComponent,
+    FabricaDesitjosComponent,
+    UayBalamArtComponent,
+    MedievalWeddingComponent,
+    
     DevsComponent,
+    ThisWebComponent,
     RatingComponent,
     RocketsComponent,
     VehicleRegistrationComponent,
     ChuckComponent,
     FoodMapComponent,
+    UaybalamComponent,
+    ViokoComponent,
     HeaderDevsComponent,
     AboutComponent,
     ContactComponent,
@@ -86,13 +111,13 @@ import { NgbdDropdownBasic } from './header/dropdown-basic/dropdown-basic.compon
     FullmoonComponent,
     HalfmoonRightblackComponent,
     SunComponent,
-    NgbdDropdownBasic
+    NgbdDropdownBasic,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    //PhotoModule,
+    //artModule,
     //DevsModule,
     AdminModule,
     FormsModule,

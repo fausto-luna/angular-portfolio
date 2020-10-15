@@ -1,8 +1,17 @@
 
-
+a{
+  color: white;
+  
+  }
+  a:hover{
+    border: 2px solid rgb(255, 255, 255);
+    transform: scale(1.2);
+    transition: all 0.3s ease-in-out;
+    
+  }
 #fullMoon{
-    height: 38px;
-    width: 38px;
+    height: 40px;
+    width: 40px; 
     background-color: #d3d2d2;
     border-radius: 50%;
     /* display: inline-block; */
