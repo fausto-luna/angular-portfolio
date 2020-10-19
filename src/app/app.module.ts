@@ -19,7 +19,7 @@ import { LaCornisaComponent } from './art/la-cornisa/la-cornisa.component';
 import { LastDayOnEarthComponent } from './art/last-day-on-earth/last-day-on-earth.component';
 import { InstanteNoDecisivoComponent } from './art/instante-no-decisivo/instante-no-decisivo.component';
 import { HighLandComponent } from './art/high-land/high-land.component';
-import { FirstLightComponent } from './art/first-light/first-light.component';
+import { LuzPrimeraComponent } from './art/luz-primera/luz-primera.component';
 import { GrecDifusorComponent } from './art/grec-difusor/grec-difusor.component';
 import { SpanishRevolutionComponent } from './art/spanish-revolution/spanish-revolution.component';
 import { FacilMalditaNereaComponent } from './art/facil-maldita-nerea/facil-maldita-nerea.component';
@@ -84,7 +84,7 @@ import { NgbdDropdownBasic } from './header/dropdown-basic/dropdown-basic.compon
     LastDayOnEarthComponent,
     InstanteNoDecisivoComponent,
     HighLandComponent,
-    FirstLightComponent,
+    LuzPrimeraComponent,
     GrecDifusorComponent,
     SpanishRevolutionComponent,
     FacilMalditaNereaComponent,

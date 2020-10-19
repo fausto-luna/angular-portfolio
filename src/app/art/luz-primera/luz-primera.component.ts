@@ -3,11 +3,11 @@ import { MediaObserver, MediaChange } from '@angular/flex-layout';
 import { Subscription } from 'rxjs';
 
 @Component({
-  selector: 'app-first-light',
-  templateUrl: './first-light.component.html',
-  styleUrls: ['./first-light.component.css']
+  selector: 'app-luz-primera',
+  templateUrl: './luz-primera.component.html',
+  styleUrls: ['./luz-primera.component.css']
 })
-export class FirstLightComponent implements OnInit {
+export class LuzPrimeraComponent implements OnInit {
 
   @Input( ) deviceXs: boolean;
 
@@ -25,6 +25,6 @@ export class FirstLightComponent implements OnInit {
   ngOnDestroy() {
     this.mediaSub.unsubscribe();
   }
-  numArr = Array.from(Array(24), (_,x) => x);
+  numArr = Array.from(Array(25), (_,x) => x);
 
 }

@@ -7,11 +7,13 @@
 <div class="col-4" id="col2">
     
         <h2 *ngIf="_router.url == '/about'">ABOUT</h2>
+        <h2 *ngIf="_router.url == '/devs'"> &lt;&#x0002F;DEVS&gt; </h2>
+        <h2 *ngIf="_router.url == '/art'">ART</h2>
         <h2 *ngIf="_router.url == '/contact'">CONTACT</h2>
         <h2 *ngIf="_router.url == '/shop'">SHOP</h2>
         <app-header-devs *ngIf="
         
-        _router.url == '/devs' ||
+        
         _router.url == '/devs/rating-html-css-js' ||
         _router.url == '/devs/rockets' ||
         _router.url == '/devs/vehicle-registration' ||
@@ -24,7 +26,7 @@
         "></app-header-devs>
         <app-header-art *ngIf="
 
-        _router.url == '/art' || 
+         
         _router.url == '/art/fabrica-desitjos' ||
         _router.url == '/art/facil-maldita-nerea' ||
         _router.url == '/art/luz-primera' ||

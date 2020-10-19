@@ -3,6 +3,12 @@
     margin-top: 1rem;
     margin-bottom: 3rem;
     justify-content: center;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+a,.col-sm-5, .col-sm-6{
+padding: unset;
+margin: unset;
 }
 img{
     width: 100%;
@@ -10,16 +16,18 @@ img{
     border-radius: 5px;
 }
 h2,h3{
-    margin-left: 13px;
+    margin-left: 2px;
     
 }
 h2{
     font-weight: bold;
     font-size: 20px;
+    margin-top: 9px;
 }
 h3{
     font-weight: lighter;
     font-size: 18px;
+   
 }
 p{
     font-size: 8px;

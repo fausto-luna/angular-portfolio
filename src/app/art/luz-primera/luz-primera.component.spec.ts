@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { FirstLightComponent } from './first-light.component';
+import { LuzPrimeraComponent } from './luz-primera.component';
 
 describe('FirstLightComponent', () => {
-  let component: FirstLightComponent;
-  let fixture: ComponentFixture<FirstLightComponent>;
+  let component: LuzPrimeraComponent;
+  let fixture: ComponentFixture<LuzPrimeraComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ FirstLightComponent ]
+      declarations: [ LuzPrimeraComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(FirstLightComponent);
+    fixture = TestBed.createComponent(LuzPrimeraComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

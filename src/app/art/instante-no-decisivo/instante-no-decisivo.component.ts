@@ -25,5 +25,5 @@ export class InstanteNoDecisivoComponent implements OnInit {
   ngOnDestroy() {
     this.mediaSub.unsubscribe();
   }
-  numArr = Array.from(Array(73), (_,x) => x);
+  numArr = Array.from(Array(74), (_,x) => x);
 }

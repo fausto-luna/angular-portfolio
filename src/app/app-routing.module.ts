@@ -11,7 +11,7 @@ import { LaCornisaComponent } from './art/la-cornisa/la-cornisa.component';
 import { LastDayOnEarthComponent } from './art/last-day-on-earth/last-day-on-earth.component';
 import { InstanteNoDecisivoComponent } from './art/instante-no-decisivo/instante-no-decisivo.component';
 import { HighLandComponent } from './art/high-land/high-land.component';
-import { FirstLightComponent } from './art/first-light/first-light.component';
+import { LuzPrimeraComponent } from './art/luz-primera/luz-primera.component';
 import { GrecDifusorComponent } from './art/grec-difusor/grec-difusor.component';
 import { SpanishRevolutionComponent } from './art/spanish-revolution/spanish-revolution.component';
 import { FacilMalditaNereaComponent } from './art/facil-maldita-nerea/facil-maldita-nerea.component';
@@ -52,7 +52,7 @@ const routes: Routes = [
   { path: 'art/instante-no-decisivo', component: InstanteNoDecisivoComponent },
   { path: 'art/high-land', component: HighLandComponent },
   { path: 'art/instante-no-decisivo', component: HighLandComponent },
-  { path: 'art/luz-primera', component: FirstLightComponent },
+  { path: 'art/luz-primera', component: LuzPrimeraComponent },
   { path: 'art/grec-difusor',  component: GrecDifusorComponent },
   { path: 'art/spanish-revolution', component: SpanishRevolutionComponent },
   { path: 'art/facil-maldita-nerea', component: FacilMalditaNereaComponent },

@@ -9,7 +9,7 @@ import { HeaderArtComponent } from './header-art/header-art.component';
 import { LastDayOnEarthComponent } from './last-day-on-earth/last-day-on-earth.component';
 import { InstanteNoDecisivoComponent } from './instante-no-decisivo/instante-no-decisivo.component';
 import { HighLandComponent } from './high-land/high-land.component';
-import { FirstLightComponent } from './first-light/first-light.component';
+import { LuzPrimeraComponent } from './luz-primera/luz-primera.component';
 import { GrecDifusorComponent } from './grec-difusor/grec-difusor.component';
 import { SpanishRevolutionComponent } from './spanish-revolution/spanish-revolution.component';
 import { FacilMalditaNereaComponent } from './facil-maldita-nerea/facil-maldita-nerea.component';
@@ -27,7 +27,7 @@ import { FoodPhotoComponent } from './food-photo/food-photo.component';
     LastDayOnEarthComponent,
     InstanteNoDecisivoComponent,
     HighLandComponent,
-    FirstLightComponent,
+    LuzPrimeraComponent,
     GrecDifusorComponent,
     SpanishRevolutionComponent,
     FacilMalditaNereaComponent,
