@@ -16,6 +16,7 @@ import { FacilMalditaNereaComponent } from './facil-maldita-nerea/facil-maldita-
 import { MedievalWeddingComponent } from './medieval-wedding/medieval-wedding.component';
 import { FabricaDesitjosComponent } from './fabrica-desitjos/fabrica-desitjos.component';
 import { UayBalamArtComponent } from './uay-balam-art/uay-balam-art.component';
+import { FoodPhotoComponent } from './food-photo/food-photo.component';
 
 
 @NgModule({
@@ -32,7 +33,8 @@ import { UayBalamArtComponent } from './uay-balam-art/uay-balam-art.component';
     FacilMalditaNereaComponent,
     MedievalWeddingComponent,
     FabricaDesitjosComponent,
-    UayBalamArtComponent
+    UayBalamArtComponent,
+    FoodPhotoComponent
   ],
   imports: [
     CommonModule

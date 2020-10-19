@@ -2,9 +2,11 @@
     /* background-color: rgb(13, 132, 168); */
     margin-top: 3rem;
 }
-.col-md-4{
+
+.col-md-4,#food{
     /* background-color: rgb(174, 64, 64); */
     margin-top: 2rem;
+    margin-bottom: 3rem;
 }
 .row{
   

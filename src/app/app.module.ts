@@ -26,6 +26,7 @@ import { FacilMalditaNereaComponent } from './art/facil-maldita-nerea/facil-mald
 import { FabricaDesitjosComponent } from './art/fabrica-desitjos/fabrica-desitjos.component';
 import { UayBalamArtComponent } from './art/uay-balam-art/uay-balam-art.component';
 import { MedievalWeddingComponent } from './art/medieval-wedding/medieval-wedding.component';
+import { FoodPhotoComponent } from './art/food-photo/food-photo.component';
 
 
 import { DevsComponent } from './devs/devs.component';
@@ -90,6 +91,7 @@ import { NgbdDropdownBasic } from './header/dropdown-basic/dropdown-basic.compon
     FabricaDesitjosComponent,
     UayBalamArtComponent,
     MedievalWeddingComponent,
+    FoodPhotoComponent,
     
     DevsComponent,
     ThisWebComponent,

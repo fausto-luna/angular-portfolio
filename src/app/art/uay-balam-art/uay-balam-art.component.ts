@@ -25,6 +25,6 @@ export class UayBalamArtComponent implements OnInit {
   ngOnDestroy() {
     this.mediaSub.unsubscribe();
   }
-  numArr = Array.from(Array(26), (_,x) => x);
+  numArr = Array.from(Array(28), (_,x) => x);
 
 }

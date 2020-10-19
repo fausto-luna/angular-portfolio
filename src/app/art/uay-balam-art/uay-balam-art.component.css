@@ -1,13 +1,13 @@
-
 .row {
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
-  }
-  *{
-      font-size: 18px;
-  }
-  h2{
+}
+*{
+    font-size: 18px;
+
+}
+h2{
     font-weight: 900;
 }
 img{
@@ -15,34 +15,31 @@ img{
     border: 1px solid rgb(255, 255, 255);
     border-radius: 5px;
 }
+
 a{
     font-weight: bolder;
     color: #f4b824;
-    font-size: 18px;
 }
+
+
+
 @media screen and (min-width: 1050px) {
-    #gif{
-        flex: 50%;
-        max-width: 70%;
-        width: 68.7%;
-        margin-left: 25px;
-    }
     #columnImg {
         flex: 50%;
         max-width: 35%;
-        height: fit-content;
+       
         /* background-color: rgb(126, 35, 35); */
-      }
-
+    }
     img{
         width: 100%;
-        /* margin-bottom: 18px; */
     }
     h2,h3,h4{
         width: 100%;
         font-size: 18px;
     }
-    
+    p{
+        font-size: 18px;
+    }
     #columnText{
         flex: 30%;
         max-width: 30%;
@@ -51,6 +48,7 @@ a{
         right: 0px;
         padding: 0 28px;
         /* background-color: rgb(240, 221, 12); */
+        overflow: visible;
     }
     .row{
         height: fit-content;
@@ -61,6 +59,7 @@ a{
         position: relative;
     }
 }
+
 
 
 @media screen and (min-width: 601px) and (max-width:1049px){
@@ -75,11 +74,11 @@ a{
         max-width: 100%;
         height: fit-content;
         padding-top: 16px;
-
         /* background-color: rgb(240, 221, 12); */
-       
     }
 }
+
+
 
 @media screen and (max-width: 600px) {
     .column {
@@ -93,10 +92,9 @@ a{
    
     img{
         width: 100%;
-        margin-bottom: 18px;
     }
     #columnText{
-        padding: 0 8px; 
         /* background-color: rgb(219, 23, 23); */
+        padding-top: 16px;
     }
 }

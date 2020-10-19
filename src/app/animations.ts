@@ -7,7 +7,7 @@ export const slideInAnimation =
       query(':enter, :leave',[
         style({
           position: 'absolute',
-          top: 0,
+          top: 80,
           left: 0,
           width: '100%'
         })

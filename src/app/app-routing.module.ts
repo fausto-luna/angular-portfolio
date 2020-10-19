@@ -18,6 +18,7 @@ import { FacilMalditaNereaComponent } from './art/facil-maldita-nerea/facil-mald
 import { FabricaDesitjosComponent } from './art/fabrica-desitjos/fabrica-desitjos.component';
 import { UayBalamArtComponent } from './art/uay-balam-art/uay-balam-art.component';
 import { MedievalWeddingComponent } from './art/medieval-wedding/medieval-wedding.component';
+import { FoodPhotoComponent } from './art/food-photo/food-photo.component';
 
 
 import { DevsComponent } from './devs/devs.component';
@@ -58,6 +59,7 @@ const routes: Routes = [
   { path: 'art/fabrica-desitjos', component: FabricaDesitjosComponent },
   { path: 'art/uay-balam-art', component: UayBalamArtComponent },
   { path: 'art/medieval-wedding', component: MedievalWeddingComponent },
+  { path: 'art/food-photography', component: FoodPhotoComponent },
   { path: 'about', component: AboutComponent, data: { animation: 'AboutPage'} },
   { path: 'contact', component: ContactComponent, data: { animation: 'ContactPage' } },
   { path: 'shop', component: ShopComponent, data: { animation: 'ShopPage' } }
