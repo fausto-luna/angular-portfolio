@@ -6,9 +6,10 @@
     padding-left: 32px;
     padding-right: 32px;
 }
-a,.col-sm-5, .col-sm-6{
+
+a,.col-md-6, .col-md-8{
 padding: unset;
-margin: unset;
+
 }
 img{
     width: 100%;
