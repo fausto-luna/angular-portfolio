@@ -1,9 +1,14 @@
-<mat-toolbar>
+<mat-toolbar *ngIf="_router.url != '/'"  >
     <!-- -------------------*ngIf='!deviceXs'------------------- -->
     <mat-toolbar-row *ngIf='!deviceXs'>
-        <div class="col-4" id="col1" *ngIf="_router.url != '/'">
+
+
+        <div class="col-4" id="col1">
             <navbrand></navbrand>
         </div>
+
+
+
 <div class="col-4" id="col2">
     
         <h2 *ngIf="_router.url == '/about'">ABOUT</h2>
@@ -72,7 +77,7 @@
     </mat-toolbar-row>
     <!-- -------------------*ngIf='deviceXs'------------------- -->
     <mat-toolbar-row *ngIf='deviceXs' id='mat-toolbar-row-navbrand'>
-        <div class="col-12 text-center">
+        <div class="col-12 text-center" *ngIf="_router.url != '/'">
             <navbrand></navbrand>
         </div>
     </mat-toolbar-row>
