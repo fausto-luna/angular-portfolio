@@ -26,7 +26,7 @@ import { RatingComponent } from './devs/rating/rating.component';
 import { RocketsComponent } from './devs/rockets/rockets.component';
 import { VehicleRegistrationComponent } from './devs/vehicle-registration/vehicle-registration.component';
 import { ChuckComponent } from './devs/chuck/chuck.component';
-import { FoodMapComponent } from './devs/food-map/food-map.component';
+
 import { ThisWebComponent } from './devs/this-web/this-web.component';
 import { UaybalamComponent } from './devs/uaybalam/uaybalam.component';
 import { ViokoComponent } from './devs/vioko/vioko.component';
@@ -42,7 +42,7 @@ const routes: Routes = [
   { path: 'devs/rockets', component: RocketsComponent },
   { path: 'devs/vehicle-registration', component: VehicleRegistrationComponent },
   { path: 'devs/chuck-norris-jokes', component: ChuckComponent },
-  { path: 'devs/food-map', component: FoodMapComponent },
+  
   { path: 'devs/this-web', component: ThisWebComponent },
   { path: 'devs/uaybalam', component: UaybalamComponent },
   { path: 'devs/vioko',  component: ViokoComponent },

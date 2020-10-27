@@ -37,7 +37,7 @@ import { RatingComponent } from './devs/rating/rating.component';
 import { RocketsComponent } from './devs/rockets/rockets.component';
 import { VehicleRegistrationComponent } from './devs/vehicle-registration/vehicle-registration.component';
 import { ChuckComponent } from './devs/chuck/chuck.component';
-import { FoodMapComponent } from './devs/food-map/food-map.component';
+
 import { HeaderDevsComponent } from './devs/header-devs/header-devs.component';
 import { UaybalamComponent } from './devs/uaybalam/uaybalam.component';
 import { ViokoComponent } from './devs/vioko/vioko.component';
@@ -99,7 +99,7 @@ import { NgbdDropdownBasic } from './header/dropdown-basic/dropdown-basic.compon
     RocketsComponent,
     VehicleRegistrationComponent,
     ChuckComponent,
-    FoodMapComponent,
+    
     UaybalamComponent,
     ViokoComponent,
     HeaderDevsComponent,
