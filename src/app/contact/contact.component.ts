@@ -3,7 +3,7 @@ import { MediaObserver, MediaChange } from '@angular/flex-layout';
 import { Subscription } from 'rxjs';
 import { MessageService } from '/Users/faustoluna/IT/02_Front-End/07_Angular/angular-portfolio/src/app/services/message.service';
 import Swal from 'sweetalert2';
-import { Validators } from '@angular/forms';
+
 
 @Component({
   selector: 'app-contact',
