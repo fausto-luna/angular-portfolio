@@ -1,9 +1,10 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms'
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-
+import { MessageService } from './services/message.service';
 import { AppRoutingModule } from './app-routing.module';
 //import { artModule } from './art/art.module';
 //import { DevsModule } from './devs/devs.module';
@@ -134,9 +135,10 @@ import { NgbdDropdownBasic } from './header/dropdown-basic/dropdown-basic.compon
     MatInputModule,
     MatSidenavModule,
     MatCardModule,
-    MatListModule
+    MatListModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [MessageService],
   
   bootstrap: [AppComponent]
 })

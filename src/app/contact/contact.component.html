@@ -10,7 +10,10 @@
 
       <div class="col-lg-12 col-lg-offset-2">
         
-        <form>
+        <form
+        
+         (ngSubmit)='contactForm(form.value)'
+          #form="ngForm">
 
         <div class="messages"></div>
 
@@ -26,7 +29,7 @@
                   #firstName="ngModel"
                   ngModel
                   name="firstName"
-                  id="firstName" 
+                  id="input1" 
                   type="text" 
                   class="form-control" 
                   placeholder="Please enter your name *">
@@ -51,7 +54,7 @@
                   ngModel
                   #lastName="ngModel"
                   name="lastName" 
-                  id="lastName" 
+                  id="input2" 
                   type="text" 
                   class="form-control" 
                   placeholder="Please enter your surname *">
@@ -79,7 +82,7 @@
                   email
                   #email="ngModel"
                   name="email"
-                  id="email"
+                  id="input3"
                   type="email"
                   class="form-control"
                   placeholder="Please enter your email *">
@@ -103,7 +106,7 @@
                   #phone="ngModel"
                   ngModel
                   name="phone"
-                  id="phone"
+                  id="input4"
                   type="tel"
                   class="form-control"
                   placeholder="Please enter your phone">
@@ -116,6 +119,8 @@
           <div class="row">
             <div class="col-md-8">
               <div class="form-group">
+                <label for="message">Subject</label>
+                <input type="text" name="subject" class="form-control" ngModel>
                 <label for="message">Message *</label>
                 <textarea
                   required
@@ -123,7 +128,7 @@
                   #message="ngModel"
                   ngModel
                   name="message" 
-                  id="message" 
+                  id="input5" 
                   class="form-control" 
                   placeholder="Message for me *" 
                   rows="4">
